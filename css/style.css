@@ -1,4 +1,10 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 body {
+
     font-family: Arial, sans-serif;
     text-align: center;
     background-color:lightgrey;
@@ -13,6 +19,7 @@ h1 {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -45,3 +52,18 @@ form input {
     width: 80%;
     max-width: 300px;
 }
+
+button {
+    background-color: rgb(7, 0, 68);
+    color:  rgb(255, 81, 0); 
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
